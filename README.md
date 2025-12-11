@@ -14,3 +14,5 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 xx/xx/xxxx
 - Added Megafauna
 - Added mineral traders
+- Heatwave and coldsnap can be permanent conditions if enabled in the scenario editor
+- Fueled and electric smithy have the same recipes as the electric smelter 
