@@ -1,6 +1,6 @@
 # ISA_Patches
 
-This is a mod dedicated to patching the vanilla game and various mods for personal use. You are free to download and use it.
+This is a mod dedicated to patching the vanilla game and various mods for personal use.
 
 # Ideas for possible next updates
 - New traders (Book orbital trader, grocery trader and basic stuff trader like foods and clothes)
