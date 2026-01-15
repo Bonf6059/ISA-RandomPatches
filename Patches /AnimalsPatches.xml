@@ -10,6 +10,12 @@
 							<packAnimal>true</packAnimal>
 						</value>
 					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Thrumbo"]/statBases/Wildness</xpath>
+						<value>
+							<Wildness>0.95</Wildness>
+						</value>
+					</li>
 					<li Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]</xpath>
 						<value>
