@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-		<!-- Thrumbo -->
-
 		<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 				<operations>
-          <packAnimal>true</packAnimal>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Thrumbo"]/race</xpath>
+						<value>
+							<packAnimal>true</packAnimal>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Thrumbo"]</xpath>
+						<value>
+    						<comps>
+      							<li Class="CompProperties_Shearable">
+        							<woolDef>ISA_ThrumboWool</woolDef>
+     								<shearIntervalDays>30</shearIntervalDays>
+     								<woolAmount>80</woolAmount>
+    							</li>
+     							<li Class="CompProperties_Milkable">
+      								<milkDef>ISA_ThrumboMilk</milkDef>
+       								<milkIntervalDays>15</milkIntervalDays>
+       								<milkAmount>30</milkAmount>
+      							</li>
+  							</comps>
+						</value>
+					</li>
 				</operations>	
-		</Operation>
+			</Operation>
 	
 </Patch>
