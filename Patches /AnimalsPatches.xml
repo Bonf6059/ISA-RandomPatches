@@ -2,7 +2,7 @@
 <Patch>
 
 		<Operation Class="PatchOperationSequence">
-		<success>Always</success>
+	<!--	<success>Always</success>	-->
 				<operations>
 					<li Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]/race</xpath>
