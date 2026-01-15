@@ -15,14 +15,14 @@
 						<value>
     						<comps>
       							<li Class="CompProperties_Shearable">
-        							<woolDef>ISA_ThrumboWool</woolDef>
+        							<woolDef>ThrumboLeather</woolDef>
      								<shearIntervalDays>30</shearIntervalDays>
-     								<woolAmount>80</woolAmount>
+     								<woolAmount>90</woolAmount>
     							</li>
      							<li Class="CompProperties_Milkable">
-      								<milkDef>ISA_ThrumboMilk</milkDef>
+      								<milkDef>Milk</milkDef>
        								<milkIntervalDays>15</milkIntervalDays>
-       								<milkAmount>30</milkAmount>
+       								<milkAmount>40</milkAmount>
       							</li>
   							</comps>
 						</value>
