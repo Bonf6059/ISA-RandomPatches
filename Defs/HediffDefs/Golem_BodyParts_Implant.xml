@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Pyrinth Core  -->
+
+    <ThingDef MayRequire="det.epochspyrinth,det.epochsgolems" ParentName="DV_GolemBodypart_Implant">
+        <defName>ISA_Golem_PyrinthCore</defName>
+        <label>pyrinth core</label>
+        <description>A core made of pyrinth shards locked between anima branches. Increases the golem's cold resistance, at the cost of being more brittle since part of the clay has been hardened by the heat.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>DV_Golem_InstallPyrinthCore</RecipeDef>
+        </descriptionHyperlinks>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <Mass>1</Mass>
+        </statBases>
+        <costList>
+            <DV_AnimaLog>40</DV_AnimaLog>
+            <DV_Pyrinth>25</DV_Pyrinth>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>DV_GolemResearch_GolemancyModules</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <HediffDef MayRequire="det.epochspyrinth,det.epochsgolems">
+        <defName>DV_Golem_InstalledPyrinthCore</defName>
+        <label>pyrinth core</label>
+        <description>A core made of pyrinth shards locked between anima branches. Increases the golem's cold resistance, at the cost of being more brittle since part of the clay has been hardened by the heat.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(171, 245, 216)</defaultLabelColor>
+        <makesSickThought>false</makesSickThought>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <isBad>False</isBad>
+        <spawnThingOnRemoved>ISA_Golem_PyrinthCore</spawnThingOnRemoved>
+        <stages>
+          <li>
+            <statOffsets>
+              <ArmorRating_Sharp>-0.15</ArmorRating_Sharp>
+              <ArmorRating_Blunt>-0.1</ArmorRating_Blunt>
+              <ComfyTemperatureMin>-36</ComfyTemperatureMin>
+            </statOffsets>
+          </li>
+        </stages>
+    </HediffDef>
+
+    <RecipeDef MayRequire="det.epochspyrinth,det.epochsgolems" ParentName="DV_GolemBodypart_Install">
+        <defName>DV_Golem_InstallPyrinthCore</defName>
+        <label>attach pyrinth core</label>
+        <description>Attach a pyrinth core.</description>
+        <descriptionHyperlinks>
+            <ThingDef>DV_Golem_PyrinthCore</ThingDef>
+        </descriptionHyperlinks>
+        <jobString>Attaching pyrinth core.</jobString>
+        <effectWorking>ClayTurning</effectWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DV_Golem_PyrinthCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DV_Golem_PyrinthCore</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>DV_Golem_Torso</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>DV_Golem_InstalledPyrinthCore</addsHediff>
+    </RecipeDef>
+
+
+</Defs>
