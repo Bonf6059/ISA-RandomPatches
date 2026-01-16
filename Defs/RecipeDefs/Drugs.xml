@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======== Recipes ======== -->
+  
+  <RecipeDef Name="ISA_MakeDrugBase" Abstract="True">
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+<!--		<researchPrerequisites>
+			<li>ISA_DrugsMaking</li>
+		</researchPrerequisites>		 -->
+	</RecipeDef>
+
+  <RecipeDef ParentName="ISA_MakeDrugBase">
+		<defName>ISA_Make_Neutroamine</defName>
+		<label>make neutroamine x5</label>
+		<description>Make neutroamine x5.</description>
+		<jobString>Making neutroamine x5.</jobString>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+        <li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<Neutroamine>5</Neutroamine>
+		</products>
+	</RecipeDef>
+
+  <RecipeDef ParentName="ISA_MakeDrugBase">
+		<defName>ISA_Make_NeutroamineBulk</defName>
+		<label>make neutroamine x10</label>
+		<description>Make neutroamine x10.</description>
+		<jobString>Making neutroamine x10.</jobString>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+        <li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<Neutroamine>10</Neutroamine>
+		</products>
+	</RecipeDef>
+
+</Defs>
