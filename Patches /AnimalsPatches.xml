@@ -21,7 +21,7 @@
 						<value>
     						<comps>
       							<li Class="CompProperties_Shearable">
-        							<woolDef>ThrumboLeather</woolDef>
+        							<woolDef>Leather_Thrumbo</woolDef>
      								<shearIntervalDays>30</shearIntervalDays>
      								<woolAmount>90</woolAmount>
     							</li>
