@@ -11,6 +11,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+19/01/2026
+- Plants like Boomshroom; Psilocap; Nightgrass; Willowgill are now plantable
+
 16/01/2026
 - Various changes to the thrumbos (now they are pack animals, are less wild, can be sheared a produce milk)
 - Added a recipe for neutroamine
