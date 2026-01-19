@@ -14,7 +14,11 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 
 19/01/2026
 - Plants like Boomshroom; Psilocap; Nightgrass; Willowgill are now plantable
-- Various changes to thrumbos, muffalos, bisons, caribou and megasloth (min comfortable temp, wool cold insulation, hunger rate, wildness)
+- Various changes to thrumbos, muffalos, bisons, caribou and megasloth
+-     min comfortable temp
+-     wool cold insulation
+-     hunger rate
+-     wildness
 
 16/01/2026
 - Various changes to thrumbos (now they are pack animals, are less wild, can be sheared a produce milk)
