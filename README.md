@@ -8,6 +8,7 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - Metal doesn't burn
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
+- Additional plants to make plantable like in VFEM2
   
 # Old updates
 
