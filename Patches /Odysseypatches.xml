@@ -2,7 +2,7 @@
 
 <Patch>
 
-	<Operation Class = "PatchOperationAdd">
+	<Operation MayRequire="Ludeon.RimWorld.Odyssey" Class = "PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Boomshroom"]/plant</xpath>
 		<value>
 			<sowTags>
@@ -12,7 +12,7 @@
 		</value>
 	</Operation>
 	
-	<Operation Class = "PatchOperationAdd">
+	<Operation MayRequire="Ludeon.RimWorld.Odyssey" Class = "PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Plant_Psilocap"]/plant</xpath>
 		<value>
 			<sowTags>
@@ -22,7 +22,7 @@
 		</value>
 	</Operation>
 
-    <Operation Class = "PatchOperationAdd">
+    <Operation MayRequire="Ludeon.RimWorld.Odyssey" Class = "PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Plant_Nightgrass"]/plant</xpath>
 		<value>
 			<sowTags>
@@ -31,7 +31,7 @@
 		</value>
 	</Operation>
 
-    <Operation Class = "PatchOperationAdd">
+    <Operation MayRequire="Ludeon.RimWorld.Odyssey" Class = "PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Plant_Willowgill"]/plant</xpath>
 		<value>
 			<sowTags>
