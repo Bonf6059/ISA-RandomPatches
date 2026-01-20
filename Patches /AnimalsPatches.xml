@@ -1,168 +1,145 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <Patch>
 
 <!-- Thumbo -->
 	
-		<Operation Class="PatchOperationSequence">
-	<!--	<success>Always</success>	-->
-				<operations>
-					<li Class="PatchOperationAdd">
+					<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]/race</xpath>
 						<value>
 							<packAnimal>true</packAnimal>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]/statBases/Wildness</xpath>
 						<value>
 							<Wildness>0.95</Wildness>
 						</value>
-					</li>
-					<li Class="PatchOperationAdd">
+					</Operation>
+					<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]</xpath>
 						<value>
     						<comps>
-      							<li Class="CompProperties_Shearable">
+      							<Operation Class="CompProperties_Shearable">
         							<woolDef>Leather_Thrumbo</woolDef>
      								<shearIntervalDays>30</shearIntervalDays>
      								<woolAmount>90</woolAmount>
-    							</li>
-     							<li Class="CompProperties_Milkable">
+    							</Operation>
+     							<Operation Class="CompProperties_Milkable">
       								<milkDef>Milk</milkDef>
        								<milkIntervalDays>15</milkIntervalDays>
        								<milkAmount>40</milkAmount>
-      							</li>
+      							</Operation>
   							</comps>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]/race/baseHungerRate</xpath>
 						<value>
     						<baseHungerRate>2.4</baseHungerRate>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]/statBases/ComfyTemperatureMin</xpath>
 						<value>
 							<ComfyTemperatureMin>-70</ComfyTemperatureMin>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Leather_Thrumbo"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
     						<StuffPower_Insulation_Cold>44</StuffPower_Insulation_Cold>
 						</value>
-					</li>
-				</operations>	
-			</Operation>
+					</Operation>	
 
   <!-- Megasloth -->
 
-			<Operation Class="PatchOperationSequence">
-	<!--	<success>Always</success>	-->
-				<operations>
-					<li Class="PatchOperationReplace">
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Megasloth"]/statBases/ComfyTemperatureMin</xpath>
 						<value>
 							<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/lifeExpectancy</xpath>
 						<value>
 							<lifeExpectancy>30</lifeExpectancy>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/wildness</xpath>
+					</Operation>
+					<Operation Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/Wildness</xpath>
 						<value>
-    						<wildness>0.87</wildness>
+    						<Wildness>0.87</Wildness>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/baseHungerRate</xpath>
 						<value>
     						<baseHungerRate>1.2</baseHungerRate>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="WoolMegasloth"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
     						<StuffPower_Insulation_Cold>44</StuffPower_Insulation_Cold>
 						</value>
-					</li>
-				</operations>	
-			</Operation>
+					</Operation>
 
 		<!-- Muffalo -->
 
-			<Operation Class="PatchOperationSequence">
-	<!--	<success>Always</success>	-->
-				<operations>
-					<li Class="PatchOperationReplace">
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Muffalo"]/statBases/ComfyTemperatureMin</xpath>
 						<value>
 							<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Muffalo"]/race/baseHungerRate</xpath>
 						<value>
     						<baseHungerRate>0.66</baseHungerRate>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="WoolMuffalo"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
     						<StuffPower_Insulation_Cold>38</StuffPower_Insulation_Cold>
 						</value>
-					</li>
-				</operations>	
-			</Operation>
+					</Operation>
 
 		<!-- Bison -->
 
-			<Operation Class="PatchOperationSequence">
-	<!--	<success>Always</success>	-->
-				<operations>
-					<li Class="PatchOperationReplace">
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Bison"]/statBases/ComfyTemperatureMin</xpath>
 						<value>
 							<ComfyTemperatureMin>-60</ComfyTemperatureMin>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Bison"]/race/baseHungerRate</xpath>
 						<value>
     						<baseHungerRate>0.66</baseHungerRate>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="WoolBison"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
     						<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
 						</value>
-					</li>
-				</operations>	
-			</Operation>
+					</Operation>
 	
 		<!-- Caribou -->
-
-				<Operation Class="PatchOperationSequence">
-	<!--	<success>Always</success>	-->
-				<operations>
-					<li Class="PatchOperationReplace">
+ù
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Caribou"]/statBases/ComfyTemperatureMin</xpath>
 						<value>
 							<ComfyTemperatureMin>-55</ComfyTemperatureMin>
 						</value>
-					</li>
-					<li Class="PatchOperationReplace">
+					</Operation>
+					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Caribou"]/race/baseHungerRate</xpath>
 						<value>
     						<baseHungerRate>0.24</baseHungerRate>
 						</value>
-					</li>
-			</Operation>
-
+					</Operation>
+	
 </Patch>
