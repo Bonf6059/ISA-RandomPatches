@@ -3,7 +3,7 @@
 
 <!-- Fungal Gravel for everyone -->
 	
-	<Operation Class="PatchOperationReplace">
+	<Operation MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationReplace">
 		<xpath>Defs/TerrainDef[defName="FungalGravel"]/canGenerateDefaultDesignator</xpath>
 		<value>
 			<canGenerateDefaultDesignator>true</canGenerateDefaultDesignator>
