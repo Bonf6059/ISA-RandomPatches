@@ -66,12 +66,12 @@
 							<lifeExpectancy>30</lifeExpectancy>
 						</value>
 					</Operation>
-					<Operation Class="PatchOperationReplace">
+			<!--		<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/Wildness</xpath>
 						<value>
     						<Wildness>0.87</Wildness>
 						</value>
-					</Operation>
+					</Operation>	-->
 					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Megasloth"]/race/baseHungerRate</xpath>
 						<value>
