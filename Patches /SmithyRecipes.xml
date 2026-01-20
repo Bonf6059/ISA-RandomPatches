@@ -3,7 +3,7 @@
 
 <!-- inerita ricette dal electric smelter vanilla -->
 	
-	<Operation Class="PatchOperationAdd">
+	<Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
 		<value>
   			<modExtensions>
@@ -16,7 +16,7 @@
 		</value>
 	</Operation>
 
-    <Operation Class="PatchOperationAdd">
+    <Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
 		<value>
   			<modExtensions>
