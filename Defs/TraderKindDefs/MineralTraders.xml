@@ -83,12 +83,7 @@
         <countRange>-10~84</countRange>
       </li>
       
-      <li MayRequire="det.epochspottery" Class="StockGenerator_SingleDef">
-        <thingDef>DV_Clay</thingDef>
-        <countRange>-10~84</countRange>
-      </li>
-
-	  <li MayRequire="det.epochsgolems" Class="StockGenerator_SingleDef">
+      <li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
         <thingDef>DV_Clay</thingDef>
         <countRange>-10~84</countRange>
       </li>
@@ -183,12 +178,7 @@
         <countRange>-10~95</countRange>
       </li>
       
-      <li MayRequire="det.epochspottery" Class="StockGenerator_SingleDef">
-        <thingDef>DV_Clay</thingDef>
-        <countRange>-10~95</countRange>
-      </li>
-
-      <li MayRequire="det.epochsgolems" Class="StockGenerator_SingleDef">
+      <li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
         <thingDef>DV_Clay</thingDef>
         <countRange>-10~95</countRange>
       </li>
