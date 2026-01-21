@@ -1,7 +1,7 @@
 <loadFolders>
 	<v1.6>
 		<li>/</li>
-		<li>1.6</li>		
+		<!--<li>1.6</li>-->	
 		<li IfModActive="det.epochsgolems">1.6/Mods/Epochs-Series/EpochsGolems</li>
 	</v1.6>
 </loadFolders>
