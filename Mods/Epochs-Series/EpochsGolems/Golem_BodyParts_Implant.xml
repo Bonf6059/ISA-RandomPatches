@@ -3,7 +3,7 @@
 
     <!-- Pyrinth Core  -->
 
-    <ThingDef MayRequire="det.epochspyrinth,det.epochsgolems" ParentName="DV_GolemBodypart_Implant">
+    <ThingDef MayRequire="det.epochspyrinth" ParentName="DV_GolemBodypart_Implant">
         <defName>ISA_Golem_PyrinthCore</defName>
         <label>pyrinth core</label>
         <description>A core made of pyrinth shards locked between anima branches. Increases the golem's cold resistance, at the cost of being more brittle since part of the clay has been hardened by the heat.</description>
@@ -23,7 +23,7 @@
         </recipeMaker>
     </ThingDef>
 
-    <HediffDef MayRequire="det.epochspyrinth,det.epochsgolems">
+    <HediffDef MayRequire="det.epochspyrinth">
         <defName>DV_Golem_InstalledPyrinthCore</defName>
         <label>pyrinth core</label>
         <description>A core made of pyrinth shards locked between anima branches. Increases the golem's cold resistance, at the cost of being more brittle since part of the clay has been hardened by the heat.</description>
@@ -45,7 +45,7 @@
         </stages>
     </HediffDef>
 
-    <RecipeDef MayRequire="det.epochspyrinth,det.epochsgolems" ParentName="DV_GolemBodypart_Install">
+    <RecipeDef MayRequire="det.epochspyrinth" ParentName="DV_GolemBodypart_Install">
         <defName>DV_Golem_InstallPyrinthCore</defName>
         <label>attach pyrinth core</label>
         <description>Attach a pyrinth core.</description>
