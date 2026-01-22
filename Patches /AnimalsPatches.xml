@@ -105,6 +105,16 @@
     						<StuffPower_Insulation_Cold>38</StuffPower_Insulation_Cold>
 						</value>
 					</Operation>
+					<Operation Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Muffalo"]/comps</xpath>
+						<value>
+   							<Operation Class="CompProperties_Milkable">
+   								<milkDef>Milk</milkDef>
+   								<milkIntervalDays>2</milkIntervalDays>
+   								<milkAmount>16</milkAmount>
+   							</Operation>
+						</value>
+					</Operation>
 
 		<!-- Bison -->
 
@@ -124,6 +134,16 @@
 						<xpath>/Defs/ThingDef[defName="WoolBison"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
     						<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+						</value>
+					</Operation>
+					<Operation Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Bison"]/comps</xpath>
+						<value>
+     						<Operation Class="CompProperties_Milkable">
+      							<milkDef>Milk</milkDef>
+       							<milkIntervalDays>2</milkIntervalDays>
+       							<milkAmount>16</milkAmount>
+      						</Operation>
 						</value>
 					</Operation>
 	
