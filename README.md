@@ -4,7 +4,6 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 
 # Ideas for possible next updates
 - New traders (Book orbital trader, grocery trader and basic stuff trader like foods and clothes)
-- Muffalo and bison produce milk
 - Metal doesn't burn
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
@@ -12,6 +11,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - Additional visage mask from "Sexier masks" or smth
   
 # Old updates
+
+22/01/2026
+- Muffalo and bison produce 16 milk every 2 days 
 
 19/01/2026
 - Plants like Boomshroom; Psilocap; Nightgrass; Willowgill are now plantable
