@@ -12,6 +12,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+28/01/2026
+- Metal doesn't burn anymore (or very little) 
+
 22/01/2026
 - Muffalo and bison produce 16 milk every 2 days 
 
