@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Visage Mask -->
+
+  <ThingDef ParentName="HatMakeableBase" Name="ISA_MaskBase" Abstract="True">
+    <label>visage mask</label>
+    <description>A hard facial mask that resembles a stylized face.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <EquipDelay>1.5</EquipDelay>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+ <!--     <wornGraphicPaths>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskA</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>
+      </wornGraphicPaths>  -->
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
+    <recipeMaker>
+      <displayPriority>155</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- -->
+
+  <ThingDef ParentName="ISA_MaskBase">
+    <defName>ISA_VisageMaskBroken</defName>
+    <label>broken visage mask</label>
+    <description>A hard facial mask that resembles a stylized face. It has some missing pieces, it may be a stylistic choice or it may be because of something else...</description>
+    <graphicData>
+      <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskBroken/VM_Broken</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <wornGraphicPaths>
+        <li>Pawn/Humanlike/ApparelStyles/VisageMaskBroken/VM_Broken</li>
+      <!--  <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>-->
+      </wornGraphicPaths>  
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+  </ThingDef>
+
+</Defs>
