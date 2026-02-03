@@ -2,6 +2,7 @@
 	<v1.6>
 		<li>/</li>
 		<!--<li>1.6</li>-->	
-		<li IfModActive="det.epochsgolems">1.6/Mods/Epochs-Series/EpochsGolems</li>
+		<li IfModActive="det.epochsgolems">Mods/Epochs-Series/EpochsGolems</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 	</v1.6>
 </loadFolders>
