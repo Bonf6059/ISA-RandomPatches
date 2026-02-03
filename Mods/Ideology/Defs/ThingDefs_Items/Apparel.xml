@@ -61,7 +61,7 @@
     </recipeMaker>
   </ThingDef>
 
-<!-- -->
+<!-- Broken visage mask -->
 
   <ThingDef ParentName="ISA_MaskBase">
     <defName>ISA_VisageMaskBroken</defName>
@@ -74,6 +74,69 @@
     <apparel>
     <wornGraphicPaths>
         <li>Pawn/Humanlike/ApparelStyles/VisageMaskBroken/VM_Broken</li>
+      <!--  <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>-->
+      </wornGraphicPaths>  
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+  </ThingDef>
+
+  <!-- Elegant visage mask -->
+
+  <ThingDef ParentName="ISA_MaskBase">
+    <defName>ISA_VisageMaskElegant</defName>
+    <label>elegant visage mask</label>
+    <description>A hard facial mask that resembles a stylized face. </description>
+    <graphicData>
+      <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskElegant/VM_Elegant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <wornGraphicPaths>
+        <li>Pawn/Humanlike/ApparelStyles/VisageMaskElegant/VM_Elegant</li>
+      <!--  <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>-->
+      </wornGraphicPaths>  
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+  </ThingDef>
+
+  <!-- Fox visage mask -->
+
+  <ThingDef ParentName="ISA_MaskBase">
+    <defName>ISA_VisageMaskFox</defName>
+    <label>fox visage mask</label>
+    <description>A hard facial mask that resembles a stylized face. It has some missing pieces, it may be a stylistic choice or it may be because of something else...</description>
+    <graphicData>
+      <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskFox/VM_Fox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <wornGraphicPaths>
+        <li>Pawn/Humanlike/ApparelStyles/VisageMaskFox/VM_Fox</li>
+      <!--  <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
+        <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>-->
+      </wornGraphicPaths>  
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+  </ThingDef>
+  
+  <!-- Morbid visage mask -->
+
+  <ThingDef ParentName="ISA_MaskBase">
+    <defName>ISA_VisageMaskMorbid</defName>
+    <label>morbid visage mask</label>
+    <description>A hard facial mask that resembles a stylized face. It has some missing pieces, it may be a stylistic choice or it may be because of something else...</description>
+    <graphicData>
+      <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskMorbid/VM_Morbid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+    <wornGraphicPaths>
+        <li>Pawn/Humanlike/ApparelStyles/VisageMaskMorbid/VM_Morbid</li>
       <!--  <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskB</li>
         <li>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMaskC</li>-->
       </wornGraphicPaths>  
