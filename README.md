@@ -4,12 +4,10 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 
 # Ideas for possible next updates
 - New traders (Book orbital trader, grocery trader and basic stuff trader like foods and clothes)
-- Metal doesn't burn
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
 - Additional plants to make plantable like in VFEM2 or Ali's mod
 - Update visage mask description (mod Folder)
-- Remove the antler gene from the shisune xenotype
 - Make a new deer like xenotype using erin's genes it may be publishable
   
 # Old updates
