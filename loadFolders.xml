@@ -4,6 +4,6 @@
 		<!--<li>1.6</li>-->	
 		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
-		<li IfModActive="Erin.Shisune">Mods/Erin's/Shisune</li>
+		<li IfModActive="Erin.Shisune">Mods/Erins/Shisune</li>
 	</v1.6>
 </loadFolders>
