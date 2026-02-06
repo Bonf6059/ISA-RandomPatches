@@ -2,7 +2,6 @@
 	<v1.6>
 		<li>/</li>
 		<!--<li>1.6</li>-->	
-		<li IfModActive="det.epochsgolems">Mods/Epochs-Series/EpochsGolems</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
 		<li IfModActive="Erin.Shisune">Mods/Erin's/Shisune</li>
