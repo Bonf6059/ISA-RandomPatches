@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class = "PatchOperationRemove">
+		<xpath>/Defs/XenotypeDef[defName = "ERN_Shisune"]/genes</xpath>
+		<value>
+			<li>ERN_ShisuneAntlers_Branch</li>
+			<li>ERN_ShisuneAntlers_Twig</li>
+			<li>ERN_ShisuneAntlers_Sprig</li>
+		</value>
+	</Operation>
+	
+</Patch>
