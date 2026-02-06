@@ -14,6 +14,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+06/02/2026
+- Removed antler genes from Erin's Shisune if the mod is active
+
 03/02/2026
 - Added new visage masks
 
