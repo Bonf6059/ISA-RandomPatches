@@ -87,7 +87,7 @@
   <ThingDef ParentName="ISA_MaskBase">
     <defName>ISA_VisageMaskElegant</defName>
     <label>elegant visage mask</label>
-    <description>A hard facial mask that resembles a stylized face. </description>
+    <description>A hard facial mask that resembles a stylized face.</description>
     <graphicData>
       <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskElegant/VM_Elegant</texPath>
       <graphicClass>Graphic_Single</graphicClass>
