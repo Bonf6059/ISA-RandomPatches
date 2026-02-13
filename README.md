@@ -12,6 +12,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+13/02/2026
+- Added recipe to extract milk from rice
+
 06/02/2026
 - Removed antler genes from Erin's Shisune if the mod is active
 
