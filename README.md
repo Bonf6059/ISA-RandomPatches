@@ -7,13 +7,12 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
 - Additional plants to make plantable like in VFEM2 or Ali's mod
-- Update visage mask description (mod Folder)
-- Make a new deer like xenotype using erin's genes it may be publishable
   
 # Old updates
 
 13/02/2026
 - Added recipe to extract milk from rice
+- Updated visage mask description (mod Folder)
 
 06/02/2026
 - Removed antler genes from Erin's Shisune if the mod is active
