@@ -5,5 +5,6 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
 		<li IfModActive="Erin.Shisune">Mods/Erins/Shisune</li>
+		<li IfModActive="ISA.Xenotype">Mods/ISA/Xenotype</li>
 	</v1.6>
 </loadFolders>
