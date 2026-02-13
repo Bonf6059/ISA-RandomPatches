@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Rice Milk -->
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>ISA_MakeRiceMilk</defName>
+		<label>Make rice milk</label>
+		<description>Extrac milk from rice.</description>
+		<jobString>Extracing milk from rice.</jobString>
+    <workAmount>300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawRice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Milk>1</Milk>
+		</products>
+		<researchPrerequisites MayRequire="ISA.Medieval">
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>ISA_MakeRiceMilkBulk</defName>
+		<label>Make rice milk x5</label>
+		<description>Extrac milk from rice x5.</description>
+		<jobString>Extracing milk from rice x5.</jobString>
+    <workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawRice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Milk>5</Milk>
+		</products>
+		<researchPrerequisites MayRequire="ISA.Medieval">
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
+	</RecipeDef>
+</Defs>
