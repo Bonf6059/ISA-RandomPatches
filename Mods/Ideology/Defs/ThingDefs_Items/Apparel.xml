@@ -87,7 +87,7 @@
   <ThingDef ParentName="ISA_MaskBase">
     <defName>ISA_VisageMaskElegant</defName>
     <label>elegant visage mask</label>
-    <description>A hard facial mask that resembles a stylized face.</description>
+    <description>A soft facial mask that is used to hide the wearer identity during mundane activity like royal balls. Because of this it became so popular that commoners also started using it for their own parties. Usually they are made out of expensive fabrics decorated with gold and precious stones, each with their own meaning; the less expensive versione is made only with fabric.</description>
     <graphicData>
       <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskElegant/VM_Elegant</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -100,7 +100,11 @@
       </wornGraphicPaths>  
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
       <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
-    </apparel>
+      </apparel>
+      <stuffCategories>
+        <li>Fabric</li>
+      </stuffCategories>
+      <costStuffCount>15</costStuffCount>
   </ThingDef>
 
   <!-- Fox visage mask -->
@@ -108,7 +112,7 @@
   <ThingDef ParentName="ISA_MaskBase">
     <defName>ISA_VisageMaskFox</defName>
     <label>fox visage mask</label>
-    <description>A hard facial mask that resembles a stylized face. It has some missing pieces, it may be a stylistic choice or it may be because of something else...</description>
+    <description>A hard facial mask that resembles a stylized face of an animal. Some tribal faction use it during their ceremony, but it has become more widely available after the empire started "integrating" smaller factions.</description>
     <graphicData>
       <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskFox/VM_Fox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -129,7 +133,7 @@
   <ThingDef ParentName="ISA_MaskBase">
     <defName>ISA_VisageMaskMorbid</defName>
     <label>morbid visage mask</label>
-    <description>A hard facial mask that resembles a stylized face. It has some missing pieces, it may be a stylistic choice or it may be because of something else...</description>
+    <description>A hard facial mask that is used to hide the wearer identity. There are roumors that it became popular between assasins because it looked elegant enough for royal balls letting them get near their target without needing the expensive materials.</description>
     <graphicData>
       <texPath>Pawn/Humanlike/ApparelStyles/VisageMaskMorbid/VM_Morbid</texPath>
       <graphicClass>Graphic_Single</graphicClass>
