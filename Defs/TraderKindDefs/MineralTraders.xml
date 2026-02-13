@@ -70,22 +70,22 @@
 
       <li Class="StockGenerator_SingleDef">
         <thingDef>InsectJelly</thingDef>
-        <countRange>-10~75</countRange>
+        <countRange>10~75</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
         <thingDef>Meat_Megaspider</thingDef>
-        <countRange>-30~141</countRange>
+        <countRange>30~141</countRange>
       </li>
       
       <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
         <thingDef>DV_Pyrinth</thingDef>
-        <countRange>-10~84</countRange>
+        <countRange>10~84</countRange>
       </li>
       
       <li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
         <thingDef>DV_Clay</thingDef>
-        <countRange>-10~84</countRange>
+        <countRange>10~84</countRange>
       </li>
 
       <!-- Buying -->
@@ -165,22 +165,22 @@
 
       <li Class="StockGenerator_SingleDef">
         <thingDef>InsectJelly</thingDef>
-        <countRange>-10~120</countRange>
+        <countRange>15~120</countRange>
       </li>
       
       <li Class="StockGenerator_SingleDef">
         <thingDef>Meat_Megaspider</thingDef>
-        <countRange>-30~271</countRange>
+        <countRange>74~271</countRange>
       </li>
 
       <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
         <thingDef>DV_Pyrinth</thingDef>
-        <countRange>-10~95</countRange>
+        <countRange>40~125</countRange>
       </li>
       
       <li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
         <thingDef>DV_Clay</thingDef>
-        <countRange>-10~95</countRange>
+        <countRange>40~125</countRange>
       </li>
 
       <!-- Buying -->
