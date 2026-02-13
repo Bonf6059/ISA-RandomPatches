@@ -1,6 +1,0 @@
-Ideato per dirtmole
-
-dato che sono abituati alle grotte il loro metabolismo è più lento (usano meno cibo)
-perchè il cibo è difficile da trovare
-
-Prendi il robust digestion vanilla e modificalo con i valori di hunger rate modificato (guarda nuclear stomach o simili)
