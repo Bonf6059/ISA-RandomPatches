@@ -2,13 +2,16 @@
 
 <Patch>
 
-	<Operation Class = "PatchOperationRemove">
-		<xpath>/Defs/XenotypeDef[defName = "ERN_Shisune"]/genes</xpath>
-		<value>
-			<li>ERN_ShisuneAntlers_Branch</li>
-			<li>ERN_ShisuneAntlers_Twig</li>
-			<li>ERN_ShisuneAntlers_Sprig</li>
-		</value>
-	</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/XenotypeDef[defName="ERN_Shisune"]/genes/li[text() = "ERN_ShisuneAntlers_Branch"]</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/XenotypeDef[defName="ERN_Shisune"]/genes/li[text() = "ERN_ShisuneAntlers_Twig"]</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/XenotypeDef[defName="ERN_Shisune"]/genes/li[text() = "ERN_ShisuneAntlers_Sprig"]</xpath>
+</Operation>
 	
 </Patch>
