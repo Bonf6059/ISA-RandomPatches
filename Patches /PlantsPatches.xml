@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Ambrosia"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<neverBlightable>true</neverBlightable>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Glowstool"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Agarilux"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Agave"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+            <interferesWithRoof>false</interferesWithRoof>
+            <mustBeWildToSow>false</mustBeWildToSow>
+            <mustBePermanentDarknessToSow>false</mustBePermanentDarknessToSow>
+<!-- Timbershroom doesn't have an immature graphic, so all the plants immediately look full size once planted. When I get a chance intend to add a shrunk graphic. -->
+            <!-- <immatureGraphicPath>Things/Plant/TreeCocoa_Immature</immatureGraphicPath> (example from the cocoa tree graphic path)-->
+		</value>
+	</Operation>
+
+<!-- Timbershrooms have a thingDef of TreeBase and not generic farming PlantBase, which menans they have a general research requirement of tree sowing. If Timbershrooms aren't immediately visible as an option, this is why. -->
+<!-- Timbershrooms, because they are trees, don't allow side by side planting. so leaves gaps when planted in hydropoics. -->
+
+
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Haygrass"]/plant</xpath>
+		<value>
+			<neverBlightable>true</neverBlightable>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_TreeCocoa"]/plant</xpath>
+		<value>
+			<interferesWithRoof>false</interferesWithRoof>
+		</value>
+	</Operation>
+	
+<!--	<Operation Class = "PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Rafflesia"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+		</value>
+	</Operation>  -->
+	
+</Patch>
+			
