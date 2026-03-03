@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Pyrinth braziers are bright enough to grow plants -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="DV_PyrinthBrazier"]/comps/li[@Class="CompProperties_Glower"]</xpath>
+		<value>
+		  <li Class="CompProperties_Glower">
+		    <overlightRadius>11</overlightRadius>
+        <glowRadius>12</glowRadius>
+        <glowColor>(192,117,77,0)</glowColor>
+      </li>
+		</value>
+	</Operation>
+
+</Patch>
