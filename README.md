@@ -10,6 +10,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+03/03/2026
+- Pyrinth braziers are bright enough to grow plants
+  
 13/02/2026
 - Added recipe to extract milk from rice
 - Updated visage mask description (mod Folder)
