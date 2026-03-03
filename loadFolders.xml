@@ -6,6 +6,7 @@
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
 		<li IfModActive="Erin.Shisune">Mods/Erins/Shisune</li>
 		<li IfModActive="det.epochspottery,det.epochsgolems">Mods/Epochs/Clay</li>
+		<li IfModActive="det.epochspyrinth">Mods/Epochs/Pyrinth</li>
     	<!--<li IfModNotActive=""</li>-->
     	<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
