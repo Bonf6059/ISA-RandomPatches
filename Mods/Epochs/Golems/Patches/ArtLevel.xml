@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Lower the level needed to make anima dolls -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_Exotic_AnimaDoll"]/recipeMaker/skillRequirements</xpath>
+		<value>
+      <skillRequirements>
+        <Artistic>8</Artistic>
+      </skillRequirements>
+		</value>
+	</Operation>
+
+</Patch>
