@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Stone Chunks Base Class -->
+	<RecipeDef Name="ISA_DiggingSpotBase" Abstract="True">
+		<description>Dig to obtain clay.</description>
+		<workSpeedStat>MiningSpeed</workSpeedStat>
+		<workSkill>Mining</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Clay -->
+	<RecipeDef ParentName="ISA_DiggingSpotBase">
+		<defName>ISA_Gather_Clay</defName>
+		<workAmount>600</workAmount>
+		<label>dig clay</label>
+		<jobString>Digging 10 clay.</jobString>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<products>
+			<DV_Clay>10</DV_Clay>
+		</products>
+	</RecipeDef>
+
+</Defs>
