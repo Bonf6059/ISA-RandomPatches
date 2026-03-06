@@ -6,11 +6,11 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="DV_PyrinthBrazier"]/comps/li[@Class="CompProperties_Glower"]</xpath>
 		<value>
-		  <li Class="CompProperties_Glower">
-		    <overlightRadius>11</overlightRadius>
-        <glowRadius>12</glowRadius>
-        <glowColor>(192,117,77,0)</glowColor>
-      </li>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>11</overlightRadius>
+				<glowRadius>12</glowRadius>
+				<glowColor>(192,117,77,0)</glowColor>
+			</li>
 		</value>
 	</Operation>
 
