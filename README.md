@@ -12,6 +12,7 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 
 03/03/2026
 - Pyrinth braziers are bright enough to grow plants
+- Reduced level to make anima dolls in epochs-golems
   
 13/02/2026
 - Added recipe to extract milk from rice
