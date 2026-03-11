@@ -7,7 +7,8 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
 - Additional plants to make plantable like in VFEM2 or Ali's mod
-- Cambiare ricetta pemmican se epochs-tallow è installato, richiede x tallow e carne/verdure invece di carne e verdure 
+- Cambiare ricetta pemmican se epochs-tallow è installato, richiede x tallow e carne/verdure invece di carne e verdure
+- Patch Heavy bandolier so that it goes on a custom attachment layer (look at DV_ShellAttachment and golemancer bag in Detvisor epochs - golems)
   
 # Old updates
 
