@@ -8,7 +8,7 @@
 		<li IfModActive="det.epochspottery">Mods/Epochs/Pottery</li>
 		<li IfModActive="det.epochsgolems">Mods/Epochs/Golems</li>
 		<li IfModActive="det.epochspyrinth">Mods/Epochs/Pyrinth</li>
-    	<!--<li IfModNotActive=""</li>-->
-    	<!--<li IfModActiveAll=","</li>-->
+		<li IfModNotActive="det.epochsgolems">Mods/Epochs/Golems</li>
+		<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
 </loadFolders>
