@@ -4,13 +4,13 @@
 
 <!-- Change layer of Heavy bandolier -->
 	
-					<Operation Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
-						<value>
-              <layers>
-                <li>ISA_ShellAttachment</li>
-              </layers>
-						</value>
-					</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
+			<value>
+				<layers>
+					<li>ISA_ShellAttachment</li>
+				</layers>
+			</value>
+	</Operation>
 
 </Patch>
