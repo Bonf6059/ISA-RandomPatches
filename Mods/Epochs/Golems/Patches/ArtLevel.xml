@@ -7,7 +7,7 @@
 		<xpath>Defs/ThingDef[defName="DV_Exotic_AnimaDoll"]/recipeMaker/skillRequirements</xpath>
 		<value>
       <skillRequirements>
-        <Artistic>8</Artistic>
+        <Artistic>10</Artistic>
       </skillRequirements>
 		</value>
 	</Operation>
