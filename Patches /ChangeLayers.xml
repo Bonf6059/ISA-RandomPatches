@@ -4,26 +4,26 @@
 
 <!-- Change layer of Heavy bandolier -->
 
-  <Operation Class="PatchOperationFindMod">
-  <mods>
-    <li>DV</li>
-  </mods>
-  <match Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Epochs - Golems</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
+			<value>
+				<layers>
+					<li>DV_ShellAttachment</li>
+				</layers>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
 			<value>
 				<layers>
 					<li>ISA_ShellAttachment</li>
 				</layers>
 			</value>
-  </match>
-  <nomatch Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
-			<value>
-				<layers>
-					<li>ISA_ShellAttachment</li>
-				</layers>
-			</value>
-  </nomatch>
-</Operation>
+		</nomatch>
+	</Operation>
 
 </Patch>
