@@ -8,13 +8,13 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - Smoothed stone is now worthless
 - Additional plants to make plantable like in VFEM2 or Ali's mod
 - Cambiare ricetta pemmican se epochs-tallow è installato, richiede x tallow e carne/verdure invece di carne e verdure
-- Patch Heavy bandolier so that it goes on a custom attachment layer (look at DV_ShellAttachment and golemancer bag in Detvisor epochs - golems, make it so that it goes on the same layer as that if the mod is enabled otherwise it goes on a custom ISA_Layer so that you can't use both at the same time)
   
 # Old updates
 
 03/03/2026
 - Pyrinth braziers are bright enough to grow plants
 - Reduced level to make anima dolls in epochs-golems
+- Changed layer of heavy bandolier to a new layer or the shell attachment if epoch golems is active
   
 13/02/2026
 - Added recipe to extract milk from rice
