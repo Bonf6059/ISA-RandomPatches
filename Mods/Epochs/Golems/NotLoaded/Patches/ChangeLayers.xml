@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+<!-- Change layer of Heavy bandolier -->
+		<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HeavyBandolier"]/apparel/layers</xpath>
+			<value>
+				<layers>
+					<li>ISA_ShellAttachment</li>
+				</layers>
+			</value>
+		</Operation>
+
+</Patch>
