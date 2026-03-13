@@ -11,6 +11,10 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+13/03/2026
+- Removed fuel requirements from the mod "Camping Tents"
+- Changed materials required to build luggages from the mod "Camping Tents", they accept any fabric not just cloth
+
 03/03/2026
 - Pyrinth braziers are bright enough to grow plants
 - Reduced level to make anima dolls in epochs-golems
