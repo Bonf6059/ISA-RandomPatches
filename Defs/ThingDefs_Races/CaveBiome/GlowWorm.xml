@@ -8,7 +8,7 @@
 	<!-- Other info good pets? shearable? do you want it to have a specific type of leather? etc. Weaker leather. Not very strong. High nuzzle chance. -->
 
 	<ThingDef ParentName="BaseInsect">
-		<defName>BMT_PodWorm</defName>
+		<defName>ISA_PodWorm</defName>
 		<label>pod worm</label>
 		<description>Though large and intimidating, the appearance of this strange insectoid-like creature does not match with its otherwise passive nature. While it typically lives in insectoid hives as a part of the glow pod producing caste, it occasionally wanders off or gets captured and sold by humanoids.</description>
 		<statBases>
@@ -23,7 +23,7 @@
 			<Wildness>0.5</Wildness>
 		</statBases>
 		<race>
-			<body>BMT_LarvaLike</body>
+			<body>ISA_LarvaLike</body>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
@@ -33,7 +33,7 @@
 			<baseHungerRate>0.75</baseHungerRate>
 			<baseHealthScale>0.80</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>BMT_WeakChitin</leatherDef>
+			<leatherDef>ISA_WeakChitin</leatherDef>
 			<roamMtbDays>2</roamMtbDays>
 			<petness>0.01</petness>
 			<trainability>None</trainability>
@@ -43,11 +43,11 @@
 			<lifeExpectancy>20</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>BMT_EusocialInsectNymphFirst</def>
+					<def>ISA_EusocialInsectNymphFirst</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>BMT_EusocialInsectNymphSecond</def>
+					<def>ISA_EusocialInsectNymphSecond</def>
 					<minAge>0.15</minAge>
 				</li>
 				<li>
@@ -71,7 +71,7 @@
 		</race>
 		<comps>
 			<li Class="CompProperties_Milkable">
-				<milkDef>BMT_GlowGoo</milkDef>
+				<milkDef>ISA_GlowGoo</milkDef>
 				<milkIntervalDays>1</milkIntervalDays>
 				<milkAmount>6</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
@@ -109,9 +109,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>BMT_PodWorm</defName>
+		<defName>ISA_PodWorm</defName>
 		<label>pod worm</label>
-		<race>BMT_PodWorm</race>
+		<race>ISA_PodWorm</race>
 		<combatPower>50</combatPower>
 		<canArriveManhunter>true</canArriveManhunter>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
@@ -119,7 +119,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>1.5</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -129,13 +129,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>2.25</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -145,13 +145,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
 					<drawSize>2.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/GlowWorm</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>3.25</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -161,7 +161,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>BMT_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
+					<texPath>ISA_Caverns/Things/Animal/GlowWorm/Dessicated_GlowWorm</texPath>
 					<drawSize>3.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
