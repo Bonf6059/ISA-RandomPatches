@@ -132,7 +132,7 @@
 				<label>Mossy Fennec kit</label>
 				<labelPlural>Mossy Fennec kits</labelPlural>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/MossyFennec</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.2, 0.2, 0.2)</volume>
@@ -140,13 +140,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/Dessicated_MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/Dessicated_MossyFennec</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/MossyFennec</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -154,13 +154,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/Dessicated_MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/Dessicated_MossyFennec</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/MossyFennec</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -168,7 +168,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/MossyFennec/Dessicated_MossyFennec</texPath>
+					<texPath>Animals/CaveBiomes/MossyFennec/Dessicated_MossyFennec</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
