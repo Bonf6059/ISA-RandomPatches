@@ -123,18 +123,18 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlarralPenguin/GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/GlarralPenguin</texPath>
 					<drawSize>0.7</drawSize>
 					<shaderType>CutoutComplex</shaderType>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlarralPenguin/GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/GlarralPenguin</texPath>
 					<drawSize>1.1</drawSize>
 					<shaderType>CutoutComplex</shaderType>
 					<shadowData>
@@ -143,13 +143,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlarralPenguin/GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/GlarralPenguin</texPath>
 					<drawSize>1.5</drawSize>
 					<shaderType>CutoutComplex</shaderType>
 					<shadowData>
@@ -158,7 +158,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
+					<texPath>Animals/CaveBiomes/GlarralPenguin/Dessicated_GlarralPenguin</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
