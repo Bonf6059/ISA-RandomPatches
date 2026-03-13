@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+<!-- Remove fuel requirements to get temperature boost from the tents -->
+  
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/ThingDef[defName="Canopy" or defName="WoodenCanopy" or defName="Teepee" or defName="Tent" or defName="VikingTent" or defName="ModernTent" or defName="FoldingTent"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+</Operation>
+
+<!-- Camping Luggages can be built with any fabric not just cloth -->
+  
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/ThingDef[defName="CampingLuggages"]/costList</xpath>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="CampingLuggages"]</xpath>
+  <value>
+  	<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+    </stuffCategories>
+  <value>
+</Operation>
+  
+</Patch>
