@@ -92,34 +92,34 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/GlowSlug</texPath>
 					<drawSize>0.6</drawSize>
 					<!-- <shaderType>TransparentPostLight</shaderType> -->
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/Dissecated_GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/Dissecated_GlowSlug</texPath>
 					<drawSize>0.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/GlowSlug</texPath>
 					<drawSize>1.0</drawSize>
 					<!-- <shaderType>TransparentPostLight</shaderType> -->
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/Dissecated_GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/Dissecated_GlowSlug</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/GlowSlug</texPath>
 					<drawSize>1.2</drawSize>
 					<shaderType>TransparentPostLight</shaderType>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/GlowSlug/Dissecated_GlowSlug</texPath>
+					<texPath>Animals/CaveBiomes/GlowSlug/Dissecated_GlowSlug</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -130,7 +130,7 @@
 		<label>glowslug egg (fert.)</label>
 		<description>A fertilized glowslug egg. If all goes well, it should hatch into a baby slug. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>ISA_Core/Things/Item/Eggs/OvoidBugEggs</texPath>
+			<texPath>BMT_Core/Things/Item/Eggs/OvoidBugEggs</texPath>
 			<color>(137,227,227)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
@@ -150,7 +150,7 @@
 		<label>glowslug egg (unfert.)</label>
 		<description>An unfertilized glowslug egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
-			<texPath>ISA_Core/Things/Item/Eggs/OvoidBugEggs</texPath>
+			<texPath>BMT_Core/Things/Item/Eggs/OvoidBugEggs</texPath>
 			<color>(127,217,217)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
