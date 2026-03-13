@@ -144,7 +144,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Megabat</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Megabat</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>1.5</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -154,13 +154,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Dessicated_batboi</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Dessicated_batboi</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Megabat</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Megabat</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>1.8</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -170,13 +170,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Dessicated_batboi</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Dessicated_batboi</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Megabat</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Megabat</texPath>
 					<!-- <color>(176,150,106)</color> -->
 					<drawSize>2.6</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -186,7 +186,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Megabat/Dessicated_batboi</texPath>
+					<texPath>Animals/CaveBiomes/Megabat/Dessicated_batboi</texPath>
 					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
