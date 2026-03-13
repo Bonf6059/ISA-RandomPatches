@@ -8,6 +8,7 @@
 		<li IfModActive="det.epochspottery">Mods/Epochs/Pottery</li>
 		<li IfModActive="det.epochsgolems">Mods/Epochs/Golems</li>
 		<li IfModActive="det.epochspyrinth">Mods/Epochs/Pyrinth</li>
+		<li IfModActive="BiomesTeam.BiomesCore">Mods/BiomesCore</li>
 		<li IfModNotActive="det.epochsgolems">Mods/NotLoaded/Epochs/Golems</li>
 		<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
