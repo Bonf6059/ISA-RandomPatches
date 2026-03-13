@@ -119,17 +119,17 @@
 				<label>yak calf</label>
 				<labelPlural>yak calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/BeardedYak/BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/BeardedYak</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/BeardedYak/Dessicated_BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/Dessicated_BeardedYak</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/BeardedYak/BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/BeardedYak</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.375, 0.375, 0.375)</volume>
@@ -137,13 +137,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/BeardedYak/Dessicated_BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/Dessicated_BeardedYak</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/BeardedYak/BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/BeardedYak</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.5, 0.5, 0.5)</volume>
@@ -151,7 +151,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/BeardedYak/Dessicated_BeardedYak</texPath>
+					<texPath>Animals/CaveBiomes/BeardedYak/Dessicated_BeardedYak</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
