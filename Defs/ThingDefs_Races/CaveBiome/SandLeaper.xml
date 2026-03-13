@@ -104,31 +104,31 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/SandLeaper</texPath>
 					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1</drawSize>
 					<color>(192,193,192)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/Dessicated_SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/Dessicated_SandLeaper</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/SandLeaper</texPath>
 					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1.25</drawSize>
 					<color>(192,193,192)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/Dessicated_SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/Dessicated_SandLeaper</texPath>
 					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/SandLeaper</texPath>
 					<shaderType>CutoutComplex</shaderType>
 					<drawSize>1.5</drawSize>
 					<color>(192,193,192)</color>
@@ -138,7 +138,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/SandLeaper/Dessicated_SandLeaper</texPath>
+					<texPath>Animals/CaveBiomes/SandLeaper/Dessicated_SandLeaper</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
