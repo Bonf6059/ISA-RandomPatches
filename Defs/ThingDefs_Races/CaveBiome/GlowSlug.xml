@@ -23,9 +23,6 @@
 				<eggCountRange>1~2</eggCountRange>
 				<eggLayFemaleOnly>false</eggLayFemaleOnly>
 			</li>
-			<li Class="BiomesCore.CompProperties_MakeFilthTrail">
-				<filthDef>ISA_Filth_Snail_Slime</filthDef>
-			</li>
 		</comps>
 		<tools>
 			<li>
