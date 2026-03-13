@@ -26,13 +26,13 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Snowstalker/Snowstalker</texPath>
+					<texPath>Animals/CaveBiomes/Snowstalker/Snowstalker</texPath>
 					<drawSize>0.7</drawSize>
 				</bodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Snowstalker/Snowstalker</texPath>
+					<texPath>Animals/CaveBiomes/Snowstalker/Snowstalker</texPath>
 					<drawSize>1.1</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -42,7 +42,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Snowstalker/Snowstalker</texPath>
+					<texPath>Animals/CaveBiomes/Snowstalker/Snowstalker</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
