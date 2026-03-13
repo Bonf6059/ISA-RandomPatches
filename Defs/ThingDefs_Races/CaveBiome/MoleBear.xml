@@ -98,7 +98,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Molebear</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Molebear</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -106,13 +106,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Dessicated_Molebear_east</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Dessicated_Molebear_east</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Molebear</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Molebear</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -120,13 +120,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Dessicated_Molebear_east</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Dessicated_Molebear_east</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Molebear</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Molebear</texPath>
 					<drawSize>2.7</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -134,7 +134,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Molebear/Dessicated_Molebear_east</texPath>
+					<texPath>Animals/CaveBiomes/Molebear/Dessicated_Molebear_east</texPath>
 					<drawSize>2.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
