@@ -130,18 +130,18 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Maguana</texPath>
 					<drawSize>1.05</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Dessicated_Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Dessicated_Maguana</texPath>
 					<color>(100,60,70)</color>
 					<drawSize>2.65</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Maguana</texPath>
 					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -149,14 +149,14 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Dessicated_Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Dessicated_Maguana</texPath>
 					<color>(100,60,70)</color>
 					<drawSize>2.65</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Maguana</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -164,7 +164,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/Maguana/Dessicated_Maguana</texPath>
+					<texPath>Animals/CaveBiomes/Maguana/Dessicated_Maguana</texPath>
 					<color>(100,60,70)</color>
 					<drawSize>2.65</drawSize>
 				</dessicatedBodyGraphicData>
