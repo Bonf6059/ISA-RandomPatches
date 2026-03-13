@@ -96,7 +96,7 @@
 					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Muffalo"]/race/baseHungerRate</xpath>
 						<value>
-    						<baseHungerRate>0.66</baseHungerRate>
+    						<baseHungerRate>0.62</baseHungerRate>
 						</value>
 					</Operation>
 					<Operation Class="PatchOperationReplace">
@@ -127,7 +127,7 @@
 					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Bison"]/race/baseHungerRate</xpath>
 						<value>
-    						<baseHungerRate>0.66</baseHungerRate>
+    						<baseHungerRate>0.62</baseHungerRate>
 						</value>
 					</Operation>
 					<Operation Class="PatchOperationReplace">
