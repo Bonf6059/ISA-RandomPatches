@@ -117,27 +117,27 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -145,7 +145,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ISA_Caverns/Things/Animal/CrestedDragon/CrestedDragon</texPath>
+					<texPath>Animals/CaveBiomes/CrestedDragon/CrestedDragon</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
