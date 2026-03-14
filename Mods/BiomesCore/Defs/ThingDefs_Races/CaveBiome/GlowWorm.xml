@@ -33,7 +33,7 @@
 			<baseHungerRate>0.75</baseHungerRate>
 			<baseHealthScale>0.80</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>ISA_WeakChitin</leatherDef>
+			<leatherDef>BMT_WeakChitin</leatherDef>
 			<roamMtbDays>2</roamMtbDays>
 			<petness>0.01</petness>
 			<trainability>None</trainability>
@@ -43,11 +43,11 @@
 			<lifeExpectancy>20</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>ISA_EusocialInsectNymphFirst</def>
+					<def>BMT_EusocialInsectNymphFirst</def>
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>ISA_EusocialInsectNymphSecond</def>
+					<def>BMT_EusocialInsectNymphSecond</def>
 					<minAge>0.15</minAge>
 				</li>
 				<li>
