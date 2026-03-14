@@ -37,7 +37,7 @@
 			</li>
 		</tools>
 		<race>
-			<thinkTreeMain>ISA_HermaphroditicAnimal</thinkTreeMain>
+			<thinkTreeMain>BMT_HermaphroditicAnimal</thinkTreeMain>
 			<hasGenders>false</hasGenders>
 			<herdAnimal>true</herdAnimal>
 			<body>BiomesCore_Slug</body>
