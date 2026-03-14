@@ -71,7 +71,7 @@
 					<def>AnimalAdult</def>
 					<minAge>0.2222</minAge>
 				</li>
-			</lifeStageAges>>
+			</lifeStageAges>
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
