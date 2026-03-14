@@ -51,8 +51,8 @@
 			<nuzzleMtbHours>10</nuzzleMtbHours>
 			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.02</manhunterOnDamageChance>
-			<leatherDef>ISA_Leather_Gastropoda</leatherDef>
-			<specificMeatDef>ISA_GastropodMeat</specificMeatDef>
+			<leatherDef>BMT_Leather_Gastropoda</leatherDef>
+			<specificMeatDef>BMT_GastropodMeat</specificMeatDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
