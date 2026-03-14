@@ -69,14 +69,14 @@
 				<li>(-0.35, 0, 0.05)</li>
 			</headPosPerRotation>
 		</race>
-		<comps>
+		<!--<comps>
 			<li Class="CompProperties_Milkable">
 				<milkDef>ISA_GlowGoo</milkDef>
 				<milkIntervalDays>1</milkIntervalDays>
 				<milkAmount>6</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
-		</comps>
+		</comps>-->
 		<tradeTags>
 			<li>AnimalExotic</li>
 			<li>AnimalInsect</li>
