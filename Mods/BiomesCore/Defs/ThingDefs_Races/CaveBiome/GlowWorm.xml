@@ -23,7 +23,7 @@
 			<Wildness>0.5</Wildness>
 		</statBases>
 		<race>
-			<body>ISA_LarvaLike</body>
+			<body>BMT_LarvaLike</body>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
