@@ -83,7 +83,7 @@
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>ISA_Leather_Magma</leatherDef>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<trainability>Intermediate</trainability>
 			<packAnimal>false</packAnimal>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
