@@ -3,7 +3,7 @@
 
     <!-- Pyrinth heart  -->
 
-    <ThingDef ParentName="DV_GolemBodypart_Implant">
+    <ThingDef MayRequire="det.epochspyrinth" ParentName="DV_GolemBodypart_Implant">
         <defName>ISA_Golem_PyrinthHeart</defName>
         <label>pyrinth heart</label>
         <description>An heart made of pyrinth shards locked between anima branches. Increases min comfortable temperature at the cost of making the golem more brittle.</description>
@@ -23,7 +23,7 @@
         </recipeMaker>
     </ThingDef>
 
-    <HediffDef>
+    <HediffDef MayRequire="det.epochspyrinth">
         <defName>ISA_Golem_InstalledPyrinthHeart</defName>
         <label>Pyrinth heart</label>
         <description>An heart made of pyrinth shards locked between anima branches. Increases min comfortable temperature at the cost of making the golem more brittle.</description>
@@ -46,7 +46,7 @@
         </comps>
     </HediffDef>
 
-    <RecipeDef ParentName="DV_GolemBodypart_Install">
+    <RecipeDef MayRequire="det.epochspyrinth" ParentName="DV_GolemBodypart_Install">
         <defName>ISA_Golem_InstallPyrinthHeart</defName>
         <label>attach pyrinth heart</label>
         <description>Attach a pyrinth heart.</description>
