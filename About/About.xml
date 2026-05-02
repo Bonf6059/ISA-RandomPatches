@@ -6,8 +6,8 @@
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-<!--    <loadAfter>
-	    <li></li>
-    </loadAfter> -->
+    <loadAfter>
+		<li>det.epochsgolems</li>
+    </loadAfter>
   <packageId>ISA.RandomPatches</packageId>
 </ModMetaData>
