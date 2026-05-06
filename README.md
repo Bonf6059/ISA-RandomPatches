@@ -11,6 +11,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+06/05/2026
+- Removed patches to Epochs mod series by detvisor and moved to a separeted mod 
+
 13/03/2026
 - Removed fuel requirements from the mod "Camping Tents"
 - Changed materials required to build luggages from the mod "Camping Tents", they accept any fabric not just cloth
