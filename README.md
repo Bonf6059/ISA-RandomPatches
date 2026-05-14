@@ -11,6 +11,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+14/05/206
+- Updated minerals trader stock
+
 06/05/2026
 - Removed patches to Epochs mod series by detvisor and moved to a separeted mod 
 
