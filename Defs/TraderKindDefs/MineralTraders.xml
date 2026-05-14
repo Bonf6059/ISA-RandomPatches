@@ -13,28 +13,13 @@
 			</li>
       
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Mindwort</thingDef>
-				<countRange>2~5</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Poppy</thingDef>
-				<countRange>2~5</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_FlyAgaric</thingDef>
-				<countRange>5~15</countRange>
-			</li>
-
-			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
-				<countRange>2~5</countRange>
+				<countRange>10~15</countRange>
 			</li>
 
-   		    <li Class="StockGenerator_SingleDef">
-   		      <thingDef>ISA_HerbalExtract</thingDef>
-    		  <countRange>5~10</countRange>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
@@ -90,18 +75,7 @@
         		<thingDef>Meat_Megaspider</thingDef>
         		<countRange>30~141</countRange>
       		</li>
-      
-      		<li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Pyrinth</thingDef>
-        		<countRange>10~84</countRange>
-      		</li>
-      
-      		<li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Clay</thingDef>
-        		<countRange>10~84</countRange>
-      		</li>
 
-			
 			<!-- Buy -->
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
@@ -125,30 +99,15 @@
 				<thingDef>Silver</thingDef>
 				<countRange>3500~5000</countRange>
 			</li>
-      
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Mindwort</thingDef>
-				<countRange>5~10</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Poppy</thingDef>
-				<countRange>5~10</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_FlyAgaric</thingDef>
-				<countRange>15~30</countRange>
-			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
-				<countRange>5~10</countRange>
+				<countRange>15~20</countRange>
 			</li>
 
-   		    <li Class="StockGenerator_SingleDef">
-   		      <thingDef>ISA_HerbalExtract</thingDef>
-    		  <countRange>10~15</countRange>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>10~15</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
@@ -205,17 +164,6 @@
         		<countRange>74~271</countRange>
       		</li>
       
-      		<li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Pyrinth</thingDef>
-        		<countRange>40~125</countRange>
-      		</li>
-      
-      		<li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Clay</thingDef>
-        		<countRange>40~125</countRange>
-      		</li>
-
-			
 			<!-- Buy -->
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
