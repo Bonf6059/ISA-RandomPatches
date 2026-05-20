@@ -6,7 +6,7 @@
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
 		<li IfModActive="Erin.Shisune">Mods/Erins/Shisune</li>
 		<!--<li IfModActive="CAMPINGTENT">Mods/CampingTent</li>-->
-		<!--<li IfModNotActive="det.epochsgolems">Mods/NotLoaded/Epochs/Golems</li>-->
+		<li IfModNotActive="ISA.Medieval">Mods/ISA_Medieval/NotLoaded</li>
 		<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
 </loadFolders>
