@@ -10,6 +10,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+14/10/2026
+- Added 1.7 support
+
 14/05/206
 - Updated minerals trader stock
 
