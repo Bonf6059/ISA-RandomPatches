@@ -10,6 +10,15 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+11/11/2026
+- Renamed sivatherium milk to fatty milk
+- More animals can be milked for fatty milk
+    
+      - Muffalo
+      - Megasloth
+      - Thrumbo
+      - Sivatherium      
+
 14/10/2026
 - Added 1.7 support
 
