@@ -20,16 +20,16 @@
 						<xpath>/Defs/ThingDef[defName="Thrumbo"]</xpath>
 						<value>
     						<comps>
-      							<Operation Class="CompProperties_Shearable">
+      							<li Class="CompProperties_Shearable">
         							<woolDef>Leather_Thrumbo</woolDef>
      								<shearIntervalDays>30</shearIntervalDays>
      								<woolAmount>90</woolAmount>
-    							</Operation>
-     							<Operation Class="CompProperties_Milkable">
-      								<milkDef>Milk</milkDef>
-       								<milkIntervalDays>15</milkIntervalDays>
+    							</li>
+     							<li Class="CompProperties_Milkable">
+      								<milkDef>SivatheriumMilk</milkDef>
+       								<milkIntervalDays>20</milkIntervalDays>
        								<milkAmount>40</milkAmount>
-      							</Operation>
+      							</li>
   							</comps>
 						</value>
 					</Operation>
@@ -78,6 +78,16 @@
     						<baseHungerRate>1.2</baseHungerRate>
 						</value>
 					</Operation>
+					<Operation Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Megasloth"]/comps</xpath>
+						<value>
+   							<li Class="CompProperties_Milkable">
+   								<milkDef>SivatheriumMilk</milkDef>
+   								<milkIntervalDays>10</milkIntervalDays>
+   								<milkAmount>20</milkAmount>
+   							</li>
+						</value>
+					</Operation>
 					<Operation Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="WoolMegasloth"]/statBases/StuffPower_Insulation_Cold</xpath>
 						<value>
@@ -108,11 +118,11 @@
 					<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Muffalo"]/comps</xpath>
 						<value>
-   							<Operation Class="CompProperties_Milkable">
-   								<milkDef>Milk</milkDef>
-   								<milkIntervalDays>2</milkIntervalDays>
-   								<milkAmount>16</milkAmount>
-   							</Operation>
+   							<li Class="CompProperties_Milkable">
+   								<milkDef>SivatheriumMilk</milkDef>
+   								<milkIntervalDays>6</milkIntervalDays>
+   								<milkAmount>14</milkAmount>
+   							</li>
 						</value>
 					</Operation>
 
@@ -139,11 +149,11 @@
 					<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Bison"]/comps</xpath>
 						<value>
-     						<Operation Class="CompProperties_Milkable">
+     						<li Class="CompProperties_Milkable">
       							<milkDef>Milk</milkDef>
        							<milkIntervalDays>2</milkIntervalDays>
-       							<milkAmount>16</milkAmount>
-      						</Operation>
+       							<milkAmount>10</milkAmount>
+      						</li>
 						</value>
 					</Operation>
 	
