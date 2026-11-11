@@ -219,12 +219,12 @@
 		</comps>
 	</ThingDef>
 
-  <!-- Sivatherium milk -->
+  <!-- Sivatherium milk, now has been updated to be more generic so that it can be used for other animals -->
   
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>SivatheriumMilk</defName>
-		<label>sivatherium milk</label>
-		<description>Very nutritious milk from a sivatherium.</description>
+		<label>fatty milk</label>
+		<description>Very nutritious milk from an animal.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Milk</texPath>
 			<drawSize>1.2</drawSize>
@@ -232,7 +232,7 @@
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<MarketValue>7.5</MarketValue>
-			<Mass>0.055</Mass>
+			<Mass>0.075</Mass>
 			<MaxHitPoints>75</MaxHitPoints>
 			<Flammability>0.2</Flammability>
 			<Nutrition>0.3</Nutrition>
