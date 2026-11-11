@@ -11,7 +11,9 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 # Old updates
 
 11/11/2026
+- Fixed various animal patches regarding shearing and milking
 - Renamed sivatherium milk to fatty milk
+- Modified how much each animal can be milked and how often
 - More animals can be milked for fatty milk
     
       - Muffalo
