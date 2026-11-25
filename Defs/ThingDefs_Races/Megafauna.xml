@@ -121,6 +121,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -262,12 +263,12 @@
 			<leatherDef>Leather_Rhinoceros</leatherDef>
 			<useMeatFrom>Rhinoceros</useMeatFrom>
 			<wildBiomes>
-				<TemperateSwamp>0.01</TemperateSwamp>
+				<TemperateSwamp>0.05</TemperateSwamp>
 				<ColdBog>0.05</ColdBog>
 				<IceSheet>0.05</IceSheet>
 				<Tundra>0.1</Tundra>
 				<BorealForest>0.1</BorealForest>
-				<TemperateForest>0.01</TemperateForest>
+				<TemperateForest>0.05</TemperateForest>
 				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
 				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Grasslands>
 			</wildBiomes>
@@ -310,6 +311,7 @@
 		</comps>
 		<tradeTags>
 			<li>AnimalExotic</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -496,6 +498,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -672,6 +675,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -867,6 +871,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1042,6 +1047,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1232,6 +1238,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1415,6 +1422,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1597,6 +1605,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1786,6 +1795,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -1998,6 +2008,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -2185,6 +2196,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>ISA_AnimalMega</li>
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
