@@ -78,14 +78,15 @@
 			<manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
 			<wildBiomes>
-				<TemperateSwamp>0.003</TemperateSwamp>
-				<Tundra>0.0025</Tundra>
-				<BorealForest>0.004</BorealForest>
-				<AridShrubland>0.004</AridShrubland>
-				<Desert>0.01</Desert>
-				<ExtremeDesert>0.02</ExtremeDesert>
-				<TemperateForest>0.004</TemperateForest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.004</Grasslands>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<Tundra>0.05</Tundra>
+				<BorealForest>0.05</BorealForest>
+				<AridShrubland>0.05</AridShrubland>
+				<Desert>0.1</Desert>
+				<ExtremeDesert>0.15</ExtremeDesert>
+				<TemperateForest>0.05</TemperateForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
 			</wildBiomes>
 			<nuzzleMtbHours>150</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -261,14 +262,14 @@
 			<leatherDef>Leather_Rhinoceros</leatherDef>
 			<useMeatFrom>Rhinoceros</useMeatFrom>
 			<wildBiomes>
-				<TemperateSwamp>0.002</TemperateSwamp>
-				<ColdBog>0.003</ColdBog>
-				<IceSheet>0.006</IceSheet>
-				<Tundra>0.01</Tundra>
-				<BorealForest>0.008</BorealForest>
-				<TemperateForest>0.004</TemperateForest>
-				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.004</Grasslands>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<ColdBog>0.05</ColdBog>
+				<IceSheet>0.05</IceSheet>
+				<Tundra>0.1</Tundra>
+				<BorealForest>0.1</BorealForest>
+				<TemperateForest>0.01</TemperateForest>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Grasslands>
 			</wildBiomes>
 			<nuzzleMtbHours>45</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -451,13 +452,14 @@
 			<leatherDef>Leather_Panthera</leatherDef>
 			<useMeatFrom>Panther</useMeatFrom>
 			<wildBiomes>
-				<TemperateSwamp>0.005</TemperateSwamp>
-				<ColdBog>0.008</ColdBog>
-				<Tundra>0.008</Tundra>
-				<BorealForest>0.01</BorealForest>
-				<AridShrubland>0.006</AridShrubland>
-				<TemperateForest>0.006</TemperateForest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.006</Grasslands>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<ColdBog>0.05</ColdBog>
+				<Tundra>0.05</Tundra>
+				<BorealForest>0.1</BorealForest>
+				<AridShrubland>0.05</AridShrubland>
+				<TemperateForest>0.05</TemperateForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
 			</wildBiomes>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -628,14 +630,14 @@
 			<leatherDef>Leather_Heavy</leatherDef>
 			<useMeatFrom>Deer</useMeatFrom>
 			<wildBiomes>
-				<TemperateSwamp>0.003</TemperateSwamp>
-				<ColdBog>0.003</ColdBog>
-				<Tundra>0.008</Tundra>
-				<BorealForest>0.01</BorealForest>
-				<TemperateForest>0.01</TemperateForest>
-				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.003</GlacialPlain>
-				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.001</Glowforest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Grasslands>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<ColdBog>0.05</ColdBog>
+				<Tundra>0.05</Tundra>
+				<BorealForest>0.1</BorealForest>
+				<TemperateForest>0.1</TemperateForest>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.05</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<nuzzleMtbHours>80</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -823,11 +825,11 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<meatLabel>lizard meat</meatLabel>
 			<wildBiomes>
-				<TemperateForest>0.003</TemperateForest>
-				<Desert>0.007</Desert>
-				<ExtremeDesert>0.01</ExtremeDesert>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.001</Grasslands>
-				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.001</LavaField>
+				<TemperateForest>0.05</TemperateForest>
+				<Desert>0.1</Desert>
+				<ExtremeDesert>0.1</ExtremeDesert>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.1</LavaField>
 			</wildBiomes>
 			<nuzzleMtbHours>10</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1001,9 +1003,9 @@
 			<leatherDef>Leather_Heavy</leatherDef>
 			<meatLabel>dinocrocuta meat</meatLabel>
 			<wildBiomes>
-				<AridShrubland>0.008</AridShrubland>
-				<Desert>0.008</Desert>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
+				<AridShrubland>0.1</AridShrubland>
+				<Desert>0.05</Desert>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<nuzzleMtbHours>55</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1192,8 +1194,10 @@
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
 			</willNeverEat>
 			<wildBiomes>
-				<AridShrubland>0.01</AridShrubland>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
+				<AridShrubland>0.1</AridShrubland>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Grasslands>
+				<TemperateForest>0.05</TemperateForest>
+				<Desert>0.05</Desert>
 			</wildBiomes>
 			<nuzzleMtbHours>70</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1367,13 +1371,13 @@
 			<leatherDef>Leather_Heavy</leatherDef>
 			<meatLabel>andrewsarchus meat</meatLabel>
 			<wildBiomes>
-				<TemperateSwamp>0.006</TemperateSwamp>
-				<ColdBog>0.006</ColdBog>
-				<BorealForest>0.006</BorealForest>
-				<AridShrubland>0.006</AridShrubland>
-				<TemperateForest>0.006</TemperateForest>
-				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.001</Glowforest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.001</Grasslands>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<ColdBog>0.05</ColdBog>
+				<BorealForest>0.05</BorealForest>
+				<AridShrubland>0.05</AridShrubland>
+				<TemperateForest>0.05</TemperateForest>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.05</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<nuzzleMtbHours>70</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1557,9 +1561,12 @@
 			<leatherDef>Leather_Bird</leatherDef>
 			<useMeatFrom>Cassowary</useMeatFrom>
 			<wildBiomes>
-				<AridShrubland>0.008</AridShrubland>
-				<TemperateForest>0.008</TemperateForest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
+				<Tundra>0.05</Tundra>
+				<BorealForest>0.05</BorealForest>
+				<AridShrubland>0.05</AridShrubland>
+				<TemperateForest>0.05</TemperateForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
 			</wildBiomes>
 			<nuzzleMtbHours>50</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1740,11 +1747,11 @@
 			<manhunterOnDamageChance>0.65</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<wildBiomes>
-				<TemperateSwamp>0.003</TemperateSwamp>
-				<TemperateForest>0.025</TemperateForest>
-				<AridShrubland>0.006</AridShrubland>
-				<BorealForest>0.006</BorealForest>
-				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.001</Grasslands>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<TemperateForest>0.05</TemperateForest>
+				<AridShrubland>0.05</AridShrubland>
+				<BorealForest>0.05</BorealForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<nuzzleMtbHours>90</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -1951,9 +1958,9 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<useMeatFrom>Megalania</useMeatFrom>
 			<wildBiomes>
-				<TemperateSwamp>0.007</TemperateSwamp>
-				<TropicalSwamp>0.007</TropicalSwamp>
-				<TropicalRainforest>0.005</TropicalRainforest>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<TropicalSwamp>0.05</TropicalSwamp>
+				<TropicalRainforest>0.05</TropicalRainforest>
 			</wildBiomes>
 			<nuzzleMtbHours>1</nuzzleMtbHours>
 			<litterSizeCurve>
@@ -2138,12 +2145,12 @@
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
 			</willNeverEat>
 			<wildBiomes>
-				<TemperateSwamp>0.01</TemperateSwamp>
-				<TemperateForest>0.01</TemperateForest>
-				<ColdBog>0.008</ColdBog>
-				<BorealForest>0.008</BorealForest>
-				<Tundra>0.005</Tundra>
-				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.005</GlacialPlain>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<TemperateForest>0.05</TemperateForest>
+				<ColdBog>0.05</ColdBog>
+				<BorealForest>0.05</BorealForest>
+				<Tundra>0.05</Tundra>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
 			</wildBiomes>
 			<nuzzleMtbHours>250</nuzzleMtbHours>
 			<litterSizeCurve>
