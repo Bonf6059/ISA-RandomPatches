@@ -10,11 +10,14 @@ This is a mod dedicated to patching the vanilla game and various mods for person
   
 # Old updates
 
+25/11/2026
+- Increased commonality for all megafuana
+- Added megafauna traders
+
 11/11/2026
 - Fixed various animal patches regarding shearing and milking
 - Renamed sivatherium milk to fatty milk
 - Modified how much each animal can be milked and how often
-- Increased commonality for all megafuana
 - More animals can be milked for fatty milk
     
       - Muffalo
