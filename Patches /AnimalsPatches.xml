@@ -171,5 +171,11 @@
     						<baseHungerRate>0.24</baseHungerRate>
 						</value>
 					</Operation>
+					<Operation Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Caribou"]/statBases/Wildness</xpath>
+						<value>
+							<Wildness>0.6</Wildness>
+						</value>
+					</Operation>
 	
 </Patch>
