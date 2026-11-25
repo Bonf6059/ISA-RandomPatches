@@ -802,7 +802,7 @@
 		</tools>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>MF_EggUnfertilized</eggUnfertilizedDef>
+				<eggUnfertilizedDef>ISA_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>EggMegalaniaFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>30</eggLayIntervalDays>
@@ -1543,7 +1543,7 @@
 		</tools>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>MF_EggUnfertilized</eggUnfertilizedDef>
+				<eggUnfertilizedDef>ISA_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>EggDinornisFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>20</eggLayIntervalDays>
@@ -1941,7 +1941,7 @@
 		</tools>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>MF_EggUnfertilized</eggUnfertilizedDef>
+				<eggUnfertilizedDef>ISA_EggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>EggPurussaurusFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>35</eggLayIntervalDays>
