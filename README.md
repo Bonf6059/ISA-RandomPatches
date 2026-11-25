@@ -13,6 +13,7 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 25/11/2026
 - Increased commonality for all megafuana
 - Added megafauna traders
+- Lowered caribou wildness from 0.75 to 0.6 like muffalos
 
 11/11/2026
 - Fixed various animal patches regarding shearing and milking
