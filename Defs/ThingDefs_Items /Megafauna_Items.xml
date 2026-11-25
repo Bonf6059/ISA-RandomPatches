@@ -4,7 +4,7 @@
     <!-- Unfertilized Egg -->
   
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>MF_EggUnfertilized</defName>
+		<defName>ISA_EggUnfertilized</defName>
 		<label>megafauna egg (unfert.)</label>
 		<description>An unfertilized megafauna egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
@@ -40,6 +40,7 @@
 		<drawGUIOverlay>false</drawGUIOverlay>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>ISA_MiscMega</li>
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
@@ -90,6 +91,7 @@
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>ISA_MiscMega</li>
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
@@ -161,6 +163,7 @@
 		</thingCategories>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>ISA_MiscMega</li>
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
@@ -192,6 +195,7 @@
 		<drawGUIOverlay>false</drawGUIOverlay>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>ISA_MiscMega</li>
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>AnimalPart</li>
