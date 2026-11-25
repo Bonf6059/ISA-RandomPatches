@@ -6,7 +6,6 @@ This is a mod dedicated to patching the vanilla game and various mods for person
 - New traders (Book orbital trader, grocery trader and basic stuff trader like foods and clothes)
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
-- Cambiare ricetta pemmican se epochs-tallow è installato, richiede x tallow e carne/verdure invece di carne e verdure
   
 # Old updates
 
