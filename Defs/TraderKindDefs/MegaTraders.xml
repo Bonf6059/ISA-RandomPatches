@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Caravan -->
+    
+<TraderKindDef>
+    <defName>ISA_Caravan_Megafauna</defName>
+    <label>megafauna trafficker</label>
+	<commonality>3</commonality>
+    <stockGenerators>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3500~5000</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>15~20</countRange>
+      </li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
+			</li>
+
+     	<li Class="StockGenerator_SingleDef">
+        <thingDef>Pemmican</thingDef>
+        <countRange>50~175</countRange>
+      </li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<countRange>75~150</countRange>
+			</li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>100~250</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DoedicurusShell</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ElasmotheriumHorn</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ElasmotheriumWool</thingDef>
+        <countRange>200~450</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>SmilodonFangs</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MegalocerosAntlers</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>SivatheriumMilk</thingDef>
+        <countRange>25~50</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_EggUnfertilized</thingDef>
+        <countRange>75~125</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>EggMegalaniaFertilized</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>EggDinornisFertilized</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>EggPurussaurusFertilized</thingDef>
+        <countRange>-1~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_Animals">
+        <maxWildness>1</maxWildness>
+        <tradeTagsSell>
+          <li>ISA_AnimalMega</li>
+      	  <li>AnimalUncommon</li>
+        </tradeTagsSell>
+        <kindCountRange>2~4</kindCountRange>
+        <countRange>3~4</countRange>
+        <createMatingPair>
+          <li>ISA_AnimalMega</li>
+        </createMatingPair>
+      </li>
+
+	  <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+
+      <!-- Buying -->
+      
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ResourcesRaw</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ISA_MiscMega</tag></li>
+      <li Class="StockGenerator_Animals">
+      	<tradeTagsBuy>
+      		<li>AnimalExotic</li>
+      		<li>ISA_AnimalMega</li>
+      	</tradeTagsBuy>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>
